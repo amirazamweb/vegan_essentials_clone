@@ -1,0 +1,15 @@
+.main {
+    padding: 0 4rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.main h2 {
+    margin-bottom: 3rem;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}

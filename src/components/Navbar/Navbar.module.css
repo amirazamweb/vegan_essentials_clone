@@ -1,0 +1,96 @@
+.main {
+    display: flex;
+    padding: 0.3rem 4rem;
+    justify-content: space-between;
+    align-items: center;
+    color: #353b48;
+    background-color: #bbe7c9;
+    box-shadow: 0 2px 2px #369e45;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.main>div:nth-of-type(1) {
+    width: 10%;
+}
+
+.main>div:nth-of-type(1) img {
+    width: 85%;
+}
+
+.main>div:nth-of-type(2) {
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main>div:nth-of-type(2) a {
+    text-decoration: none;
+    color: #353b48;
+    font-weight: 600;
+}
+
+.main>div:nth-of-type(2) a:hover {
+    color: #369e45;
+}
+
+.main>div:nth-of-type(3) {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main>div:nth-of-type(3) input {
+    width: 80%;
+    padding: 0.8rem 1.3rem;
+    border-radius: 1.3rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid #dfe4ea;
+    background-color: #dfe4ea;
+    color: #57606f;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.main>div:nth-of-type(3) input:focus {
+    outline: none;
+}
+
+.main>div:nth-of-type(3) i {
+    padding: 0.8rem;
+    background-color: #369e45;
+    color: #fff;
+    font-size: 1.1rem;
+    border-top-right-radius: 1.3rem;
+    border-bottom-right-radius: 1.3rem;
+    cursor: pointer;
+}
+
+.main>div:nth-of-type(4) {
+    width: 10%;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.main>div:nth-of-type(4) i {
+    margin-left: 1.8rem;
+    cursor: pointer;
+}
+
+.main i:hover {
+    color: #369e45;
+}
+
+/* comp scrolling css */
+
+.scroll {
+    background-image: linear-gradient(to right, #fff, #369e45);
+    color: #fff;
+}
+
+.scroll i:hover {
+    color: #000000;
+}
