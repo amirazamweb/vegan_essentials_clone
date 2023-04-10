@@ -1,0 +1,85 @@
+.main {
+    position: fixed;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 1rem 2rem;
+    z-index: 3;
+}
+
+.child1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.child1>div:first-of-type {
+    width: 40%;
+}
+
+.child1>div:first-of-type img {
+    width: 70%;
+}
+
+.child1>div:last-of-type {
+    width: 60%;
+}
+
+.child1>div:last-of-type h3 {
+    margin: 1rem 0;
+}
+
+.child1>div:last-of-type p {
+    width: 80%;
+    text-align: left;
+}
+
+.child1>div:last-of-type p span:first-of-type {
+    background-color: #369e45;
+    padding: 0.17rem 0.6rem;
+    color: #fff;
+}
+
+.child1>div:last-of-type p span:last-of-type {
+    float: right;
+    background-color: #ea9a44;
+    padding: 0.2rem 0.6rem;
+    color: #fff;
+}
+
+.child2 {
+    margin-top: 1rem;
+}
+
+.child2 button {
+    width: 45%;
+    padding: 0.6rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.child2 button:first-of-type {
+    background-color: #ea9a44;
+    border: 2px solid #ea9a44;
+    color: #fff;
+}
+
+.child2 button:last-of-type {
+    float: right;
+    background-color: #369e45;
+    border: 2px solid #369e45;
+    color: #fff;
+}
+
+.close_poup {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-weight: bold;
+}
+
+.close_poup:hover {
+    color: red;
+    cursor: pointer;
+}

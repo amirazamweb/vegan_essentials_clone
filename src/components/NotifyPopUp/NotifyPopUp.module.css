@@ -1,0 +1,75 @@
+.notify_popup {
+    width: 36%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 1.5rem 2rem;
+    z-index: 3;
+    color: #2d3436;
+}
+
+.notify_popup h2 {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.notify_popup p {
+    text-align: left;
+    margin-bottom: 0.7rem;
+}
+
+.notify_popup input[type='email'] {
+    width: 100%;
+    padding: 0.7rem;
+}
+
+.notify_popup input[type='email'] {
+    border: 1px solid gray;
+}
+
+.notify_popup input[type='email']:focus {
+    outline: none;
+}
+
+.notify_popup input[type='checkbox'] {
+    margin: 0.8rem 0;
+}
+
+.notify_popup button {
+    border: 1px solid #369e45;
+    background-color: #369e45;
+    color: #fff;
+    font-weight: 500;
+    width: 100%;
+    padding: 0.7rem;
+}
+
+.notify_popup button:hover {
+    cursor: pointer;
+    background-color: #4a9956;
+    border: 1px solid #4a9956;
+}
+
+.notify_popup .switch {
+    width: 100%;
+    text-align: center;
+    background-color: #c2e0c5;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    color: green;
+    border: 1px solid #c1ff94;
+}
+
+.close_poup {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-weight: 600;
+}
+
+.close_poup:hover {
+    color: red;
+    cursor: pointer;
+}

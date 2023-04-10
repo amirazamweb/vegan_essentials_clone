@@ -2,10 +2,15 @@ import { NavLink } from 'react-router-dom';
 import style from './Navbar.module.css'
 import logo from './../../images/logo.png'
 import { useEffect, useRef } from 'react';
+import ShoppingBag from '../ShoppingBag/ShoppingBag';
+import { showShoppingBag } from '../../redux/action';
+import { useDispatch, useSelector } from 'react-redux';
 
 const Navbar = () => {
 
     let compRef = useRef();
+    let dispatch = useDispatch();
+    let show_shopping_bag = useSelector((data) => data.show_shopping_bag);
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
@@ -18,6 +23,11 @@ const Navbar = () => {
             }
         })
     })
+
+    const scrollTop = () => {
+        dispatch(showShoppingBag());
+    }
+
     return (
         <div className={style.main} ref={compRef}>
             <div><NavLink to="/"><img src={logo} alt="logo" /></NavLink></div>
@@ -34,8 +44,11 @@ const Navbar = () => {
             </div>
             <div>
                 <i class="fa-regular fa-user"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-cart-shopping" onClick={scrollTop}></i>
             </div>
+            {/* calling shapping bag */}
+
+            {show_shopping_bag && <ShoppingBag />}
         </div>
     )
 }

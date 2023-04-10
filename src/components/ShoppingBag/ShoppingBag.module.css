@@ -1,0 +1,49 @@
+.main {
+    position: absolute;
+    top: 4.5rem;
+    right: 0;
+    color: #353b48;
+    background-color: #fff;
+    width: 28%;
+    max-height: 89vh;
+    overflow: auto;
+    padding: 0.5rem 1rem;
+}
+
+.main>div:nth-of-type(1) {
+    margin-bottom: 0.5rem;
+}
+
+.main>div:nth-of-type(1) small:hover {
+    cursor: pointer;
+    color: #369e45;
+}
+
+.main>div:nth-of-type(1) i {
+    float: right;
+}
+
+.main>div:nth-of-type(1) i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.main>div:nth-of-type(2) {
+    border-bottom: 1px solid #ea9a44;
+}
+
+.main>div:nth-of-type(2) h3,
+p {
+    text-align: center;
+}
+
+.main>div:nth-of-type(2) h3 {
+    color: #ea9a44;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.main>div:nth-of-type(2) p {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}

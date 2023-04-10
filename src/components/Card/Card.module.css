@@ -2,13 +2,13 @@
     text-align: center;
     padding: 1rem;
     position: relative;
-    border: 1px solid #ea9a44;
     border-radius: 1rem;
+    box-shadow: 0 0 10px #ea9a44;
+    border-style: none;
 }
 
 .card:hover {
-    box-shadow: 0 0 15px #369e45;
-    border: 1px solid #fff
+    box-shadow: 0 0 10px #369e45;
 }
 
 .child1 {
@@ -63,10 +63,11 @@
     text-align: center;
     font-weight: 600;
     width: 30%;
-    padding: 0.6rem;
+    padding: 0.7rem;
     border: 1px solid #ea9a44;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
+    background-color: #e2bf99;
 }
 
 .child5 input:focus {
@@ -74,7 +75,7 @@
 }
 
 .child5 span {
-    padding: 0.6rem 1rem;
+    padding: 0.7rem 1rem;
     font-size: 0.9rem;
     background-color: #ea9a44;
     color: #fff;

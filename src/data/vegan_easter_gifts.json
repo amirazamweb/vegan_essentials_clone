@@ -17,7 +17,7 @@
             "name": "Whims - Peanut Butter Cups, 2.8oz",
             "reviews_count": 1,
             "price": 8.99,
-            "inStock": false,
+            "inStock": true,
             "discount_per": 10,
             "discount_price": 9.99
         },
@@ -47,7 +47,7 @@
             "name": "Sjaak's - 72% Dark Drinking Chocolate, 10oz",
             "reviews_count": 3,
             "price": 22.49,
-            "inStock": false,
+            "inStock": true,
             "discount_per": null,
             "discount_price": null
         },
@@ -67,7 +67,7 @@
             "name": "Happi Free From - Oat M!lk Chocolate, 2.8oz | Multiple Flavors",
             "reviews_count": 1,
             "price": 4.49,
-            "inStock": false,
+            "inStock": true,
             "discount_per": null,
             "discount_price": null
         },
@@ -87,7 +87,7 @@
             "name": "Organic Chewys Fruit Chews by Yum Earth - 2 oz. bag",
             "reviews_count": 7,
             "price": 3.09,
-            "inStock": false,
+            "inStock": true,
             "discount_per": null,
             "discount_price": null
         },
@@ -117,7 +117,7 @@
             "name": "Chewie Fruities Organic Candy Packs by Torie & Howard - Bl...",
             "reviews_count": 8,
             "price": 2.09,
-            "inStock": false,
+            "inStock": true,
             "discount_per": null,
             "discount_price": null
         },
@@ -157,7 +157,7 @@
             "name": "Chewie Fruities Organic Candy Packs by Torie & Howard - Me...",
             "reviews_count": 1,
             "price": 2.09,
-            "inStock": false,
+            "inStock": true,
             "discount_per": null,
             "discount_price": null
         },
@@ -207,7 +207,7 @@
             "name": "Chewie Fruities Organic Candy Packs by Torie & Howard - Po...",
             "reviews_count": 8,
             "price": 2.09,
-            "inStock": false,
+            "inStock": true,
             "discount_per": null,
             "discount_price": null
         },

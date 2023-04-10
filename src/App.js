@@ -1,12 +1,15 @@
-
 import AppContainer from "./AppContainer";
 import { BrowserRouter } from "react-router-dom";
+import { store } from "./redux/appRedux";
+import { Provider } from "react-redux";
 
 function App() {
   return (
-    <BrowserRouter>
-      <AppContainer />
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <AppContainer />
+      </BrowserRouter>
+    </Provider>
   );
 }
 
