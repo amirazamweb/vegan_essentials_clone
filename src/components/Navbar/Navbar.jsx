@@ -8,6 +8,8 @@ import { useDispatch, useSelector } from 'react-redux';
 
 const Navbar = () => {
 
+    let orderdList = JSON.parse(localStorage.getItem('__vegan_order')) || [];
+
     let compRef = useRef();
     let dispatch = useDispatch();
     let show_shopping_bag = useSelector((data) => data.show_shopping_bag);
@@ -24,7 +26,7 @@ const Navbar = () => {
         })
     })
 
-    const scrollTop = () => {
+    const showShoppingBagHandler = () => {
         dispatch(showShoppingBag());
     }
 
@@ -44,7 +46,9 @@ const Navbar = () => {
             </div>
             <div>
                 <i class="fa-regular fa-user"></i>
-                <i class="fa-solid fa-cart-shopping" onClick={scrollTop}></i>
+                <i class="fa-solid fa-cart-shopping" onClick={showShoppingBagHandler}>
+                    {orderdList.length > 0 && <span className={style.shopping_bag_count}>{orderdList.length}</span>}
+                </i>
             </div>
             {/* calling shapping bag */}
 

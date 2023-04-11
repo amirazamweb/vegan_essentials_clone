@@ -37,4 +37,20 @@ export const closeShoppingBag = () => {
     }
 }
 
+export const detectCount = () => {
+    return {
+        type: 'detect_count'
+    }
+}
 
+export const showItemAlreadyAddedNotify = () => {
+    return {
+        type: 'show_item_already_added_notify'
+    }
+}
+
+export const closeItemAlreadyAddedNotify = () => {
+    return {
+        type: 'close_item_already_added_notify'
+    }
+}

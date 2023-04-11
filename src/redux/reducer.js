@@ -25,5 +25,17 @@ export let reducer = (val, action) => {
         return { ...val, show_bg: false, show_shopping_bag: false }
     }
 
+    if (action.type === 'detect_count') {
+        return { ...val, detect_count: ++val.detect_count }
+    }
+
+    if (action.type === 'show_item_already_added_notify') {
+        return { ...val, show_bg: true, show_item_already_added_notify: true }
+    }
+
+    if (action.type === 'close_item_already_added_notify') {
+        return { ...val, show_bg: false, show_item_already_added_notify: false }
+    }
+
     return val;
 } 

@@ -1,0 +1,33 @@
+.main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem 3rem;
+    background-color: #fff;
+    z-index: 3;
+}
+
+.main p:first-of-type {
+    font-size: 3rem;
+    color: #369e45;
+    margin-bottom: 0.5rem;
+}
+
+.main p:last-of-type {
+    font-size: 1.5rem;
+    color: #ea9a44;
+    margin-bottom: 1rem;
+}
+
+.close_popup {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 1.1rem;
+}
+
+.close_popup:hover {
+    cursor: pointer;
+    color: red;
+}

@@ -84,6 +84,22 @@
     color: #369e45;
 }
 
+.main>div:nth-of-type(4) i:last-of-type {
+    position: relative;
+    /* background-color: yellow; */
+}
+
+.shopping_bag_count {
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+    font-weight: 500;
+    font-size: 0.7rem;
+    padding: 0.3rem 0.4rem;
+    border-radius: 0.5rem;
+    background-color: #ea9a44;
+}
+
 /* comp scrolling css */
 
 .scroll {

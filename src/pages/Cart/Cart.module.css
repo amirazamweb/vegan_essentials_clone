@@ -1,0 +1,58 @@
+.main {
+    width: 65%;
+    margin: auto;
+    padding: 1.5rem 0;
+    color: #180000;
+}
+
+.main>h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.heading div:nth-of-type(1) {
+    width: 65%;
+}
+
+.heading div:nth-of-type(2) {
+    width: 20%;
+}
+
+.heading div:nth-of-type(3) {
+    width: 15%;
+}
+
+/* order_details_container */
+
+.order_details_container {
+    text-align: center;
+    height: 50vh;
+    padding-top: 2rem;
+}
+
+.order_details_container p {
+    margin: 1.5rem 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.order_details_container button {
+    padding: 0.7rem 1.8rem;
+    font-size: 1rem;
+    background-color: #ea9a44;
+    color: #fff;
+    border-style: none;
+    cursor: pointer;
+}

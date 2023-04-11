@@ -1,6 +1,8 @@
 import style from './ShoppingBagItem.module.css';
+import { detectCount } from '../../redux/action';
+import { useDispatch } from 'react-redux';
 
-const removeOrderFromLocalStorage = (ind) => {
+export const removeOrderFromLocalStorage = (ind) => {
     let orderedList = JSON.parse(localStorage.getItem('__vegan_order'));
     let orderdListAfterRemoveItem = orderedList.filter((elm, i) => {
         if (i == ind) {
@@ -14,8 +16,11 @@ const removeOrderFromLocalStorage = (ind) => {
 
 const ShoppingBagItem = ({ img, name, price, itemCount, index }) => {
 
+    let dispatch = useDispatch();
+
     const removeOrderHandler = () => {
         removeOrderFromLocalStorage(index);
+        dispatch(detectCount());
     }
 
     return (
