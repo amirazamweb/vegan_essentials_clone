@@ -22,8 +22,8 @@ const Home = () => {
 
             <ImageCarosal />
 
-            <CardContainer data={veganEasterGifts} cardDisplayCount={veganEasterGifts.data.length} />
-            <CardContainer data={veganCheese} cardDisplayCount={veganCheese.data.length} />
+            <CardContainer data={veganEasterGifts} cardDisplayCount={4} />
+            <CardContainer data={veganCheese} cardDisplayCount={4} />
 
             <div className={style.static_child2}>
                 <h2>As Seen In</h2>

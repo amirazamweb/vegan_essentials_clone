@@ -2,7 +2,8 @@
     width: 65%;
     margin: auto;
     padding: 1.5rem 0;
-    color: #180000;
+    color: #222f3e;
+    margin-bottom: -3rem;
 }
 
 .main>h1 {
@@ -17,7 +18,7 @@
     align-items: center;
     text-align: center;
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #222f3e;
     font-size: 1.1rem;
     font-weight: 700;
 }

@@ -20,7 +20,9 @@ const Card = ({ img, name, price, reviews_count, inStock, discount_per, discount
     let dispatch = useDispatch();
     let countRef = useRef();
 
-    let isAdded = JSON.parse(localStorage.getItem('__vegan_order')).find((elm) => {
+    let itemListInStorage = JSON.parse(localStorage.getItem('__vegan_order')) || [];
+
+    let isAdded = itemListInStorage.find((elm) => {
         return elm.name === name;
     })
 
@@ -30,9 +32,9 @@ const Card = ({ img, name, price, reviews_count, inStock, discount_per, discount
 
     const orderHandler = () => {
         if (!isAdded) {
-            let cardDetails = { img, name, price, itemCount: countRef.current.value };
+            let cardDetails = { img, name, price, itemCount: Number(countRef.current.value) };
             orderStoreinLocalStorage(cardDetails);
-            dispatch(showOrderPoup({ img, name, price, itemCount: countRef.current.value }));
+            dispatch(showOrderPoup({ img, name, price, itemCount: Number(countRef.current.value) }));
         }
 
         else {

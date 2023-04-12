@@ -1,0 +1,472 @@
+{
+    "poster_heading": "Vegan Chocolate, Candy & Sweets",
+    "poster_desc": "If you are looking for a guilt-free treat, this is your next stop on the flavor train. With mouth-watering bars, barks, candies, desserts, and boxes, you are totally spoiled for choice. Our selection of gelatine-free gummies and dairy-free chocolates are sure to make you forget about the real deal. Just one bite and you will be hooked. You will find the perfect healthy and guilt-free alternatives to classic treats. With a variety of vegan chocolate assortments, caramels and marshmallows too, you will never get tired of the unique and interesting flavors on offer here.",
+    "poster_img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/files/chocolate-candy_1000x.png",
+    "category_data": [
+        {
+            "title": "Vegan Chocolate & Candy Bars",
+            "data": [
+                {
+                    "id": 1,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/snap-crispy-rice-milk-chocolate-bar-by-go-max-go-foods-box-of-12-bars-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Snap! Crispy Rice Milk Chocolate Bar by Go Max Go Foods - Box ...",
+                    "reviews_count": 1,
+                    "price": 29.95,
+                    "inStock": true,
+                    "discount_per": 11,
+                    "discount_price": 33.48
+                },
+                {
+                    "id": 2,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/vego-organic-whole-hazelnut-chocolate-bar-mini-bar-size-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Vego Organic Whole Hazelnut Chocolate Bar - Mini Bar size",
+                    "reviews_count": 2,
+                    "price": 3.49,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 3,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/dark-chocolate-nonpareils-by-sunridge-farms-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Dark Chocolate Nonpareils by SunRidge Farms",
+                    "reviews_count": 4,
+                    "price": 8.69,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 4,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/HappiFreeFrom-OatM_lkChocolatePlain_2.8ozMultipleFlavors_250x250.jpg",
+                    "name": "Happi Free From - Oat M!lk Chocolate, 2.8oz | Multiple Flavors",
+                    "reviews_count": 2,
+                    "price": 4.49,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 5,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/snap-crispy-rice-milk-chocolate-bar-by-go-max-go-foods-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Snap! Crispy Rice Milk Chocolate Bar by Go Max Go Foods",
+                    "reviews_count": 14,
+                    "price": 2.99,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 6,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/HoneyComeHome_250x250.jpg",
+                    "name": "Dirty Cow - Plant Based Chocolate Handmade, 80g | Multiple Opt...",
+                    "reviews_count": 4,
+                    "price": 4.69,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 7,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/Sjaak_s-Eli_sCelebrateBar_1.5oz_250x250.jpg",
+                    "name": "Sjaak's - Eli's Celebrate Bar, 1.5oz",
+                    "reviews_count": 6,
+                    "price": 3.89,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 8,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/TrupoTreats-OrganicMYLKChocolateRiceCrunchBar_1.5oz_250x250.jpg",
+                    "name": "Trupo Treats - Organic MYLK Chocolate Rice Crunch Bar, 1.5oz",
+                    "reviews_count": 6,
+                    "price": 3.99,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 9,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/willie-s-cacao-luscious-orange-dark-chocolate-bar-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Willie's Cacao Luscious Orange Dark Chocolate Bar",
+                    "reviews_count": 7,
+                    "price": 4.49,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 10,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/dr-bronner-s-magic-all-one-chocolate-bar-salted-almond-butter-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Dr. Bronner's Magic All-One Chocolate Bar - Salted Almond ...",
+                    "reviews_count": 11,
+                    "price": 5.69,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 11,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/eli-s-earth-bars-organic-candy-bar-dream-big-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Sjaak's - Eli's Earth Bars - Dream Big",
+                    "reviews_count": 2,
+                    "price": 2.39,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 12,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/sjaaks-organic-melk-chocolate-almonds-butter-bar-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Sjaaks Organic Melk Chocolate Almonds Butter Bar",
+                    "reviews_count": 12,
+                    "price": 3.99,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                }
+            ]
+        },
+        {
+            "title": "Vegan Chocolate Treats",
+            "data": [
+                {
+                    "id": 1,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/Whims-PeanutButterCups_2.8oz_250x250.jpg",
+                    "name": "Whims - Peanut Butter Cups, 2.8oz",
+                    "reviews_count": 1,
+                    "price": 8.99,
+                    "inStock": true,
+                    "discount_per": 10,
+                    "discount_price": 9.99
+                },
+                {
+                    "id": 2,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/Sjaak_s-ChocolateBunnyBites-CoconutLimewCoconutMilk_1pc_250x250.jpg",
+                    "name": "Sjaak's - Chocolate Bunny Bites, 1pc | Multiple Flavors",
+                    "reviews_count": 6,
+                    "price": 1.49,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 3,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/caramel-sea-salt-hazelnut-praline-bar-by-hands-off-my-chocolate-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Caramel Sea Salt Hazelnut Praline Bar by Hands Off My Chocolate",
+                    "reviews_count": 2,
+                    "price": 6.49,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 4,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/Sjaak_s-72_DarkDrinkingChocolate_10oz_250x250.jpg",
+                    "name": "Sjaak's - 72% Dark Drinking Chocolate, 10oz",
+                    "reviews_count": 7,
+                    "price": 22.49,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 5,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/drizzilicous-birthday-cake-mini-rice-cakes-with-white-chocolatey-drizzle-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Drizzilicous Birthday Cake Mini Rice Cakes with White Chocolat...",
+                    "reviews_count": 2,
+                    "price": 4.59,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 6,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/peanot-butter-cups-by-no-whey-foods-vegan-essentials-online-store_250x250.jpg",
+                    "name": "PeaNot Butter Cups by No Whey Foods",
+                    "reviews_count": 3,
+                    "price": 2.49,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 7,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/sweet-buddies-caramel-and-peanut-bars-by-chocolate-inspirations-plain-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Sweet Buddies Caramel & Peanut Bars by Chocolate Inspiratiion",
+                    "reviews_count": 13,
+                    "price": 5.49,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 8,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/NoWhey_-Sweet-HeartsStrawberryGanache_4pk_250x250.jpg",
+                    "name": "No Whey! - Sweet-Hearts Strawberry Ganache, 4pk",
+                    "reviews_count": 13,
+                    "price": 9.99,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 9,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/drizzilicous-s-mores-bites-mini-rice-cakes-with-dark-chocolatey-drizzle-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Drizzilicous S'mores Bites Mini Rice Cakes with Dark Choco...",
+                    "reviews_count": 3,
+                    "price": 4.59,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 10,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/sjaak-s-organic-peanut-butter-cups-melk-chocolate-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Sjaak's Organic Peanut Butter Cups - Melk Chocolate",
+                    "reviews_count": 7,
+                    "price": 1.29,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 11,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/sjaak-s-organic-maple-sugar-caramel-coconut-milk-chocolate-heart-caramels-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Sjaak's Organic Maple Sugar Caramel Coconut Milk Chocolate...",
+                    "reviews_count": 7,
+                    "price": 1.29,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 12,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/GlowBites_250x250.jpg",
+                    "name": "Sourse - Dark Chocolate Bites, 2.2 Oz | Multiple Options",
+                    "reviews_count": 4,
+                    "price": 14.29,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                }
+            ]
+        },
+        {
+            "title": "Go Max Go",
+            "data": [
+                {
+                    "id": 1,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/snap-crispy-rice-milk-chocolate-bar-by-go-max-go-foods-box-of-12-bars-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Snap! Crispy Rice Milk Chocolate Bar by Go Max Go Foods - Box ...",
+                    "reviews_count": 1,
+                    "price": 29.95,
+                    "inStock": true,
+                    "discount_per": 11,
+                    "discount_price": 33.48
+                },
+                {
+                    "id": 2,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/snap-crispy-rice-milk-chocolate-bar-by-go-max-go-foods-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Snap! Crispy Rice Milk Chocolate Bar by Go Max Go Foods",
+                    "reviews_count": 14,
+                    "price": 2.99,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 3,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/buccaneer-candy-bar-by-go-max-go-foods-box-of-12-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Buccaneer Candy Bar by Go Max Go Foods - box of 12",
+                    "reviews_count": 14,
+                    "price": 29.95,
+                    "inStock": false,
+                    "discount_per": 11,
+                    "discount_price": 33.48
+                },
+                {
+                    "id": 4,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/mahalo-vegan-candy-bar-by-go-max-go-foods-box-of-12-bars-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Mahalo Vegan Candy Bar by Go Max Go Foods - Box of 12 bars",
+                    "reviews_count": 2,
+                    "price": 29.95,
+                    "inStock": false,
+                    "discount_per": 11,
+                    "discount_price": 33.48
+                },
+                {
+                    "id": 5,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/buccaneer-candy-bar-by-go-max-go-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Buccaneer Candy Bar by Go Max Go",
+                    "reviews_count": 20,
+                    "price": 2.99,
+                    "inStock": false,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 6,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/major-english-toffee-bar-by-go-max-go-foods-box-of-12-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Major English Toffee Bar by Go Max Go Foods - Box of 12",
+                    "reviews_count": 2,
+                    "price": 29.95,
+                    "inStock": false,
+                    "discount_per": 11,
+                    "discount_price": 33.48
+                },
+                {
+                    "id": 7,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/white-cleo-s-peanut-butter-cups-by-go-max-go-foods-box-of-12-packs-vegan-essentials-online-store_250x250.jpg",
+                    "name": "White Cleo's Peanut Butter Cups by Go Max Go Foods - Box o...",
+                    "reviews_count": 3,
+                    "price": 29.95,
+                    "inStock": false,
+                    "discount_per": 11,
+                    "discount_price": 33.48
+                },
+                {
+                    "id": 8,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/mahalo-candy-bar-by-go-max-go-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Mahalo Candy Bar by Go Max Go",
+                    "reviews_count": 21,
+                    "price": 2.99,
+                    "inStock": false,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 9,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/GoMaxGo-ThumbsUpBar_1.3oz_250x250.jpg",
+                    "name": "Go Max Go - Thumbs Up Bar, 1.3oz",
+                    "reviews_count": 22,
+                    "price": 2.99,
+                    "inStock": false,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 10,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/cleo-s-peanut-butter-cups-by-go-max-go-foods-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Cleo's Peanut Butter Cups by Go Max Go Foods",
+                    "reviews_count": 26,
+                    "price": 2.79,
+                    "inStock": false,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 11,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/major-english-toffee-bar-by-go-max-go-foods-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Major English Toffee Bar by Go Max Go Foods",
+                    "reviews_count": 4,
+                    "price": 2.99,
+                    "inStock": false,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 12,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/twilight-candy-bar-by-go-max-go-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Twilight Candy Bar by Go Max Go",
+                    "reviews_count": 16,
+                    "price": 2.99,
+                    "inStock": false,
+                    "discount_per": null,
+                    "discount_price": null
+                }
+            ]
+        },
+        {
+            "title": "Halva & Baklava",
+            "data": [
+                {
+                    "id": 1,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/gluten-free-vegan-pistachio-baklava-by-simply-bklva-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Gluten-Free Vegan Pistachio Baklava by Simply Bklva",
+                    "reviews_count": 7,
+                    "price": 9.59,
+                    "inStock": false,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 2,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/vegan-halva-by-house-of-halva-sea-salt-dark-chocolate-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Vegan Halva by House of Halva - Sea Salt Dark Chocolate",
+                    "reviews_count": 4,
+                    "price": 9.99,
+                    "inStock": false,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 3,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/vegan-halva-by-house-of-halva-chocolate-hazelnut-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Vegan Halva by House of Halva - Chocolate Hazelnut",
+                    "reviews_count": 5,
+                    "price": 9.99,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 4,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/vegan-halva-by-house-of-halva-pistachio-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Vegan Halva by House of Halva - Pistachio",
+                    "reviews_count": 5,
+                    "price": 9.99,
+                    "inStock": false,
+                    "discount_per": null,
+                    "discount_price": null
+                }
+            ]
+        },
+        {
+            "title": "Toffee, Brittle & Bark",
+            "data": [
+                {
+                    "id": 1,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/cinnamon-toast-toffee-by-chocolate-inspirations-vegan-essentials-online-store_250x250.jpg",
+                    "name": "English Toffee by Chocolate Inspirations",
+                    "reviews_count": 4,
+                    "price": 5.59,
+                    "inStock": false,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 2,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/Lagusta_sLuscious-MapleHoneycomb_3oz_250x250.jpg",
+                    "name": "Lagusta's Luscious - Maple Honeycomb, 3oz",
+                    "reviews_count": 6,
+                    "price": 9.19,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 3,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/birthday-cake-brittle-by-sweetsmith-candy-co-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Birthday Cake Brittle by Sweetsmith Candy Co.",
+                    "reviews_count": 7,
+                    "price": 6.99,
+                    "inStock": false,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 4,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/sea-salt-chocolate-peanut-brittle-by-sweetsmith-candy-co-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Sea Salt Chocolate Peanut Brittle by Sweetsmith Candy Co.",
+                    "reviews_count": 4,
+                    "price": 6.99,
+                    "inStock": false,
+                    "discount_per": null,
+                    "discount_price": null
+                }
+            ]
+        }
+    ]
+}

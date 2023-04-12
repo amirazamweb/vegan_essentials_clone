@@ -1,0 +1,33 @@
+.category_with_img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: 0 4rem;
+}
+
+.category_with_img div {
+    transition: all 1s;
+}
+
+.category_with_img div:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.category_with_img a {
+    text-decoration: none;
+    color: #222f3e;
+    font-weight: 600;
+}
+
+.category_with_img p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.category_with_img img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 0.5rem;
+}

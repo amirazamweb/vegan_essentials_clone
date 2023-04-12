@@ -4,14 +4,10 @@ import { useDispatch } from 'react-redux';
 
 export const removeOrderFromLocalStorage = (ind) => {
     let orderedList = JSON.parse(localStorage.getItem('__vegan_order'));
-    let orderdListAfterRemoveItem = orderedList.filter((elm, i) => {
-        if (i == ind) {
-            return false;
-        }
-        return true;
-    })
 
-    localStorage.setItem('__vegan_order', JSON.stringify(orderdListAfterRemoveItem));
+    orderedList.splice(ind, 1);
+
+    localStorage.setItem('__vegan_order', JSON.stringify(orderedList));
 }
 
 const ShoppingBagItem = ({ img, name, price, itemCount, index }) => {

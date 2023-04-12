@@ -34,8 +34,8 @@ const Navbar = () => {
         <div className={style.main} ref={compRef}>
             <div><NavLink to="/"><img src={logo} alt="logo" /></NavLink></div>
             <div>
-                <div><NavLink to="#">Home</NavLink></div>
-                <div><NavLink to="#">Shop By Category</NavLink></div>
+                <div><NavLink to="/">Home</NavLink></div>
+                <div><NavLink to="/collections">Shop By Category</NavLink></div>
                 <div><NavLink to="#">About Us</NavLink></div>
                 <div><NavLink to="#">Contact Us</NavLink></div>
                 <div><NavLink to="#">Rewards</NavLink></div>

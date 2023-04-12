@@ -1,6 +1,7 @@
 import style from './Cart.module.css';
 import CartItem from '../../components/CartItem/CartItem';
 import { useNavigate } from 'react-router-dom';
+import TotalOrderAmount from '../../components/TotalOrderAmount/TotalOrderAmount';
 
 const Cart = () => {
 
@@ -9,6 +10,10 @@ const Cart = () => {
 
     const backToShopping = () => {
         navigate('/');
+        window.scrollTo(0, 0);
+    }
+
+    if (orderdList.length === 0) {
         window.scrollTo(0, 0);
     }
 
@@ -33,8 +38,7 @@ const Cart = () => {
                         index={ind}
                     />
                 })}
-
-                {/* <TotalOrderAmount orderItems={storeData} /> */}
+                <TotalOrderAmount data={orderdList} />
             </div>
             :
 

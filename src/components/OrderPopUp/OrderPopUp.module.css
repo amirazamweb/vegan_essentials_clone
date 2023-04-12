@@ -5,6 +5,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
+    color: #222f3e;
     padding: 1rem 2rem;
     z-index: 3;
 }

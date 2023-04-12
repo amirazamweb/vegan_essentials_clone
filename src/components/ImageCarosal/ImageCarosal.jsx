@@ -79,9 +79,6 @@ const ImageCarosal = () => {
                     </div>
                 </Link>
 
-
-
-
             </Carousel>
         </div>
     )

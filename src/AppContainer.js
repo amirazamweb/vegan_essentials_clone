@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
+import Collections from "./pages/Collections/Collections";
+import CollectionsWithId from "./pages/CollectionsWithId/CollectionsWithId";
 import Cart from "./pages/Cart/Cart";
 import Footer from "./components/Footer/Footer";
 import BG from "./components/BG/BG";
@@ -34,6 +36,8 @@ const AppContainer = () => {
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/collections" element={<Collections />} />
+                <Route path="/collections/:id" element={<CollectionsWithId />} />
                 <Route path="/cart" element={<Cart />} />
             </Routes>
             <Footer />

@@ -43,7 +43,7 @@ const Footer = () => {
                     <h2>NEWS LETTER</h2>
                     <p>Join Our Good News Mailing List</p>
                     <div>
-                        <input type="email" name="" id="" placeholder='Enter your email Address' />
+                        <input type="email" name="" id="" placeholder='Enter your email' />
                         <button>SUBSCRIBE</button>
                     </div>
                     <h2>SOCIAL</h2>
