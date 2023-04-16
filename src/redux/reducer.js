@@ -37,5 +37,9 @@ export let reducer = (val, action) => {
         return { ...val, show_bg: false, show_item_already_added_notify: false }
     }
 
+    if (action.type === 'show_all_card') {
+        return { ...val, allCardData: action.payload }
+    }
+
     return val;
 } 

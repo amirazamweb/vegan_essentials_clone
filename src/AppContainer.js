@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
 import Collections from "./pages/Collections/Collections";
 import CollectionsWithId from "./pages/CollectionsWithId/CollectionsWithId";
+import DisplayAllProduct from "./pages/DisplayAllProduct/DisplayAllProduct";
 import Cart from "./pages/Cart/Cart";
 import Footer from "./components/Footer/Footer";
 import BG from "./components/BG/BG";
@@ -38,6 +39,7 @@ const AppContainer = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/collections" element={<Collections />} />
                 <Route path="/collections/:id" element={<CollectionsWithId />} />
+                <Route path="/collection/:id" element={<DisplayAllProduct />} />
                 <Route path="/cart" element={<Cart />} />
             </Routes>
             <Footer />
@@ -48,4 +50,4 @@ const AppContainer = () => {
         </div>
     )
 }
-export default AppContainer
+export default AppContainer;

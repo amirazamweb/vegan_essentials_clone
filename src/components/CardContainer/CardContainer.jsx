@@ -1,23 +1,26 @@
 import style from './CardContainer.module.css';
 import Card from '../Card/Card';
-import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { displayAllCard } from '../../redux/action';
+import { useNavigate } from 'react-router-dom';
+
 
 const CardContainer = ({ data, cardDisplayCount }) => {
+    let dispatch = useDispatch();
+    let navigate = useNavigate();
 
-    let first_8_data = [];
+    const displayAllProduct = () => {
+        dispatch(displayAllCard(data));
+        navigate(`/collection/${data.title}`);
+        window.scrollTo(0, 0);
+    }
 
-    let [cardDeta, setCardDeta] = useState([]);
-
-    useEffect(() => {
-        setCardDeta(data.data);
-    }, [])
     return (
         <div className={style.main}>
-            <h2>{data.title} {cardDisplayCount == 4 && <span><Link to="#">See All &gt;</Link></span>}</h2>
+            <h2>{data.title} {cardDisplayCount == 4 && <span onClick={displayAllProduct}>See All &gt;</span>}</h2>
             <div className={style.cardContainer}>
                 {
-                    cardDeta.map((elm, i) => {
+                    data.data.map((elm, i) => {
                         if (i < cardDisplayCount) {
                             return <Card
                                 key={i}

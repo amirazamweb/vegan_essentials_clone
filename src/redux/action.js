@@ -54,3 +54,11 @@ export const closeItemAlreadyAddedNotify = () => {
         type: 'close_item_already_added_notify'
     }
 }
+
+
+export const displayAllCard = (data) => {
+    return {
+        type: 'show_all_card',
+        payload: data
+    }
+}

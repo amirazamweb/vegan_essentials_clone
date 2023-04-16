@@ -420,6 +420,26 @@
                     "inStock": false,
                     "discount_per": null,
                     "discount_price": null
+                },
+                {
+                    "id": 5,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/vegan-halva-by-house-of-halva-whisky-chocolate-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Vegan Halva by House of Halva - Whisky Chocolate",
+                    "reviews_count": 2,
+                    "price": 9.99,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 6,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/vegan-halva-by-house-of-halva-toasted-coconut-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Vegan Halva by House of Halva - Toasted Coconut",
+                    "reviews_count": 4,
+                    "price": 9.99,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
                 }
             ]
         },
@@ -462,7 +482,37 @@
                     "name": "Sea Salt Chocolate Peanut Brittle by Sweetsmith Candy Co.",
                     "reviews_count": 4,
                     "price": 6.99,
-                    "inStock": false,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 5,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/gingerbread-peanut-brittle-by-sweetsmith-candy-co-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Gingerbread Peanut Brittle by Sweetsmith Candy Co.",
+                    "reviews_count": 2,
+                    "price": 6.99,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 6,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/chocolate-cashew-brittle-by-chocolate-inspirations-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Chocolate Cashew Brittle by Chocolate Inspirations",
+                    "reviews_count": 10,
+                    "price": 5.99,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 7,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/Lagusta_sLuscious-ToastedAlmondSeaSaltBark_3oz_250x250.jpg",
+                    "name": "Lagusta's Luscious - Toasted Almond Sea Salt Bark, 3oz",
+                    "reviews_count": 4,
+                    "price": 12.99,
+                    "inStock": true,
                     "discount_per": null,
                     "discount_price": null
                 }

@@ -26,6 +26,10 @@ const Navbar = () => {
         })
     })
 
+    const scrollToTop = () => {
+        window.scrollTo(0, 0);
+    }
+
     const showShoppingBagHandler = () => {
         dispatch(showShoppingBag());
     }
@@ -34,11 +38,11 @@ const Navbar = () => {
         <div className={style.main} ref={compRef}>
             <div><NavLink to="/"><img src={logo} alt="logo" /></NavLink></div>
             <div>
-                <div><NavLink to="/">Home</NavLink></div>
-                <div><NavLink to="/collections">Shop By Category</NavLink></div>
-                <div><NavLink to="#">About Us</NavLink></div>
-                <div><NavLink to="#">Contact Us</NavLink></div>
-                <div><NavLink to="#">Rewards</NavLink></div>
+                <div onClick={scrollToTop}><NavLink to="/">Home</NavLink></div>
+                <div onClick={scrollToTop}><NavLink to="/collections">Shop By Category</NavLink></div>
+                <div onClick={scrollToTop}><NavLink to="#">About Us</NavLink></div>
+                <div onClick={scrollToTop}><NavLink to="#">Contact Us</NavLink></div>
+                <div onClick={scrollToTop}><NavLink to="#">Rewards</NavLink></div>
             </div>
             <div>
                 <input type="text" name="" id="" placeholder='Search products, brands, etc....' />
