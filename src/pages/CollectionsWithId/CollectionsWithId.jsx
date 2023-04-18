@@ -4,10 +4,11 @@ import CardConatiner from './../../components/CardContainer/CardContainer';
 import chocolateCandyAndSweets from './../../data/chocolateCandyAndSweets/chocolate_candy_and_sweets.json';
 import petProducts from './../../data/petProducts/pet_products.json';
 import cheeseEggsAndDairy from './../../data/cheeseEggsAndDairy/cheese_eggs_and_dairy.json';
+import pantryEssentials from './../../data/pantryEssentials/pantry_essentials.json'
 import { useParams } from 'react-router-dom';
 
 const CollectionsWithId = () => {
-    let dataArr = [chocolateCandyAndSweets, petProducts, cheeseEggsAndDairy];
+    let dataArr = [chocolateCandyAndSweets, petProducts, cheeseEggsAndDairy, pantryEssentials];
     let referDatatoMap = {};
     let params = useParams();
     switch (params.id) {
@@ -19,6 +20,9 @@ const CollectionsWithId = () => {
             break;
         case 'cheese-eggs-dairy':
             referDatatoMap = dataArr[2];
+            break;
+        case 'pantry-essentials':
+            referDatatoMap = dataArr[3];
             break;
     }
 

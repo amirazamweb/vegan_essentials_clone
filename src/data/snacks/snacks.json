@@ -1,0 +1,212 @@
+{
+    "poster_heading": "Vegan Snacks",
+    "poster_desc": "Plant-based snacks are the key to the perfect movie night 🍿, the cornerstone of a proper game night, and essential in every packed lunchbox. Often, it’s more than something to satisfy the munchies. It’s a much-needed pick-me-up - used to give ourselves just the boost to get through a tough day. 🥨 You see, vegan snacks play a huge role!",
+    "poster_img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/files/vegan-snacks_1000x.png",
+    "category_data": [
+        {
+            "title": "Vegan Chips, Crackers & Puffs",
+            "data": [
+                {
+                    "id": 1,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/cheddar-and-sour-cream-potato-chips-by-vegan-dude-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Vegan Dude Foods - Cheddar & Sour Cream Potato Chips",
+                    "reviews_count": 6,
+                    "price": 2.89,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 2,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/pigout-pigless-crunchy-pork-rinds-by-outstanding-foods-sea-salt-vegan-essentials-online-store_250x250.jpg",
+                    "name": "PigOut Pigless Crunchy Pork Rinds by Outstanding Foods  - Sea ...",
+                    "reviews_count": 3,
+                    "price": 4.39,
+                    "inStock": true,
+                    "discount_per": 10,
+                    "discount_price": 4.90
+                },
+                {
+                    "id": 3,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/hippeas-organic-white-cheddar-chickpea-puffs-4-oz-bag-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Hippeas Organic White Cheddar Chickpea Puffs - 4 oz. bag",
+                    "reviews_count": 1,
+                    "price": 4.49,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 4,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/cheddar-ish-organic-baked-cheesy-crackers-by-mustache-munchies-4-oz-bag-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Cheddar-ish Organic Baked Cheesy Crackers by Mustache Munchies...",
+                    "reviews_count": 8,
+                    "price": 5.69,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 5,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/pigout-pigless-pork-rinds-by-outstanding-foods-hella-hot-vegan-essentials-online-store_250x250.jpg",
+                    "name": "PigOut Pigless Pork Rinds by Outstanding Foods  - Hella Hot",
+                    "reviews_count": 4,
+                    "price": 4.39,
+                    "inStock": true,
+                    "discount_per": 10,
+                    "discount_price": 4.90
+                },
+                {
+                    "id": 6,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/drizzilicous-birthday-cake-mini-rice-cakes-with-white-chocolatey-drizzle-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Drizzilicous Birthday Cake Mini Rice Cakes with White Chocolat...",
+                    "reviews_count": 7,
+                    "price": 4.59,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 7,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/Novacrisp-Grain-FreeCassavaChipsSeaSalt_4oz_250x250.jpg",
+                    "name": "Novacrisp - Grain-Free Cassava Chips, 4oz | Multiple Flavors",
+                    "reviews_count": 4,
+                    "price": 3.39,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 8,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/Savoursmiths-VeganWagyuBeef_HoneyMustardPotatoChips_5.29oz_250x250.jpg",
+                    "name": "Savoursmiths - Vegan Wagyu Beef & Honey Mustard Potato Chi...",
+                    "reviews_count": 5,
+                    "price": 4.39,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 9,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/nemi-crunchy-cactus-stick-snacks-mexican-lime-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Nemi Crunchy Cactus Stick Snacks - Mexican Lime",
+                    "reviews_count": 6,
+                    "price": 4.49,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 10,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/spicy-ish-organic-baked-cheesy-crackers-by-mustache-munchies-4-oz-bag-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Spicy-ish Organic Baked Cheesy Crackers by Mustache Munchies -...",
+                    "reviews_count": 9,
+                    "price": 5.59,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 11,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/vegan-rob-s-cauliflower-puffs-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Vegan Rob's Cauliflower Puffs",
+                    "reviews_count": 2,
+                    "price": 4.49,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 12,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/Hu-CrackersEverything_4.25oz_250x250.jpg",
+                    "name": "Hu - Crackers Everything, 4.25oz",
+                    "reviews_count": 6,
+                    "price": 7.69,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 13,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/pyro-hot-spicy-vegan-potato-chips-by-vegan-dude-bb-92222-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Vegan Dude Foods - Pyro Hot Spicy Vegan Potato Chips",
+                    "reviews_count": 2,
+                    "price": 2.78,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": 2.79
+                },
+                {
+                    "id": 14,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/nemi-crunchy-cactus-stick-snacks-cinnamon-churro-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Nemi Crunchy Cactus Stick Snacks - Cinnamon Churro",
+                    "reviews_count": 4,
+                    "price": 4.49,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 15,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/peanut-butter-pretzels-by-good-health-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Peanut Butter Pretzels by Good Health",
+                    "reviews_count": 7,
+                    "price": 3.69,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 16,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/YouNeedThis-Grain-FreeTortillaChips_5ozRanch_250x250.jpg",
+                    "name": "You Need This - Grain-Free Tortilla Chips, 5 oz | Multiple Fla...",
+                    "reviews_count": 5,
+                    "price": 4.89,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 17,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/nemi-crunchy-cactus-stick-snacks-smoky-chipotle-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Nemi Crunchy Cactus Stick Snacks - Smoky Chipotle",
+                    "reviews_count": 8,
+                    "price": 4.49,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 18,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/TiaLupita-TortillaChipsHotSauce_5oz_250x250.jpg",
+                    "name": "Tia Lupita - Tortilla Chips Hot Sauce, 5oz",
+                    "reviews_count": 4,
+                    "price": 5.69,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 19,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/organic-cauliflower-bites-by-rhythm-superfoods-white-cheddar-flavor-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Organic Cauliflower Bites by Rhythm Superfoods - White Cheddar...",
+                    "reviews_count": 6,
+                    "price": 5.59,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                },
+                {
+                    "id": 20,
+                    "img": "https://cdn.shopify.com/s/files/1/0612/9260/9676/products/quinn-gluten-free-peanut-butter-filled-pretzels-vegan-essentials-online-store_250x250.jpg",
+                    "name": "Quinn Gluten-Free Peanut Butter Filled Pretzels",
+                    "reviews_count": 1,
+                    "price": 5.59,
+                    "inStock": true,
+                    "discount_per": null,
+                    "discount_price": null
+                }
+            ]
+        }
+    ]
+}

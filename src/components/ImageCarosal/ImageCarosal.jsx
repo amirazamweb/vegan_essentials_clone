@@ -56,7 +56,7 @@ const ImageCarosal = () => {
                         <p>Cheese, Eggs & Dairy</p>
                     </div>
                 </Link>
-                <Link to="#">
+                <Link to="/collections/pantry-essentials">
                     <div className={style.item} onClick={scrollToTop}>
                         <div><img src="https://cdn.shopify.com/s/files/1/0612/9260/9676/files/pantry-essentials.webp" alt="image" /></div>
                         <p>Pantry Essentials</p>

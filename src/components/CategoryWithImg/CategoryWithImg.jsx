@@ -27,7 +27,7 @@ const CategoryWithImg = () => {
                     <p>Cheese, Eggs & Dairy</p>
                 </div>
             </Link>
-            <Link to="#">
+            <Link to="/collections/pantry-essentials">
                 <div onClick={scrollToTop}>
                     <img src="https://cdn.shopify.com/s/files/1/0612/9260/9676/files/pantry-essentials.webp" alt="imge" />
                     <p>Pantry Essentials</p>
