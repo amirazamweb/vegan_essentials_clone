@@ -62,3 +62,15 @@ export const displayAllCard = (data) => {
         payload: data
     }
 }
+
+export const orderPlaced = () => {
+    return {
+        type: 'show_checkout_popup',
+    }
+}
+
+export const closeCheckoutPopup = () => {
+    return {
+        type: 'close_checkout_popup',
+    }
+}

@@ -1,10 +1,20 @@
+import { useNavigate } from 'react-router-dom';
 import style from './TotalOrderAmount.module.css';
 
 const TotalOrderAmount = ({ data }) => {
+
+    let navigate = useNavigate();
+
     let grandTotal = 0;
     data.map((elm) => {
         grandTotal += (elm.price * elm.itemCount)
     })
+
+    const navigateToCheckout = () => {
+        window.scrollTo(0, 0);
+        navigate('/checkout')
+    }
+
     return (
         <div className={style.totalSum}>
             <div>
@@ -13,7 +23,7 @@ const TotalOrderAmount = ({ data }) => {
             <div>
                 <h3>Total: ${grandTotal.toFixed(2)}</h3>
                 <p>Shipping & taxes calculated at checkout</p>
-                <button>CHECKOUT</button>
+                <button onClick={navigateToCheckout}>CHECKOUT</button>
             </div>
         </div>
     )

@@ -33,19 +33,19 @@ const CategoryWithImg = () => {
                     <p>Pantry Essentials</p>
                 </div>
             </Link>
-            <Link to="#">
+            <Link to="/collections/snacks">
                 <div onClick={scrollToTop}>
                     <img src="https://cdn.shopify.com/s/files/1/0612/9260/9676/files/snacks.webp" alt="imge" />
                     <p>Snacks</p>
                 </div>
             </Link>
-            <Link to="#">
+            <Link to="/collections/baked-goods">
                 <div onClick={scrollToTop}>
                     <img src="https://cdn.shopify.com/s/files/1/0612/9260/9676/files/baked-goods.webp" alt="imge" />
                     <p>Baked Goods</p>
                 </div>
             </Link>
-            <Link to="#">
+            <Link to="/collections/meat-seafood">
                 <div onClick={scrollToTop}>
                     <img src="https://cdn.shopify.com/s/files/1/0612/9260/9676/files/meat-and-seafood.webp" alt="imge" />
                     <p>Meat & Seafood</p>

@@ -8,9 +8,9 @@ const Category = () => {
             <div><NavLink to="/collections/companion-animal-products">Pet Products</NavLink></div>
             <div><NavLink to="/collections/cheese-eggs-dairy">Cheese, Eggs & Dairy</NavLink></div>
             <div><NavLink to="/collections/pantry-essentials">Pantry Essentials</NavLink></div>
-            <div><NavLink to="#">Snacks</NavLink></div>
-            <div><NavLink to="#">Baked Goods</NavLink></div>
-            <div><NavLink to="#">Meat & Seafood</NavLink></div>
+            <div><NavLink to="/collections/snacks">Snacks</NavLink></div>
+            <div><NavLink to="/collections/baked-goods">Baked Goods</NavLink></div>
+            <div><NavLink to="/collections/meat-seafood">Meat & Seafood</NavLink></div>
         </div>
     )
 }

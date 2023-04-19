@@ -5,6 +5,7 @@ import Collections from "./pages/Collections/Collections";
 import CollectionsWithId from "./pages/CollectionsWithId/CollectionsWithId";
 import DisplayAllProduct from "./pages/DisplayAllProduct/DisplayAllProduct";
 import Cart from "./pages/Cart/Cart";
+import Checkout from "./pages/Checkout/Checkout";
 import Footer from "./components/Footer/Footer";
 import BG from "./components/BG/BG";
 import NotifyPopUp from "./components/NotifyPopUp/NotifyPopUp";
@@ -41,6 +42,7 @@ const AppContainer = () => {
                 <Route path="/collections/:id" element={<CollectionsWithId />} />
                 <Route path="/collection/:id" element={<DisplayAllProduct />} />
                 <Route path="/cart" element={<Cart />} />
+                <Route path="/checkout" element={<Checkout />} />
             </Routes>
             <Footer />
             {show_bg && <BG bgHeight={bgHeight} />}

@@ -41,5 +41,13 @@ export let reducer = (val, action) => {
         return { ...val, allCardData: action.payload }
     }
 
+    if (action.type === 'show_checkout_popup') {
+        return { ...val, show_checkout_popup: true, show_bg: true }
+    }
+
+    if (action.type === 'close_checkout_popup') {
+        return { ...val, show_checkout_popup: false, show_bg: false }
+    }
+
     return val;
 } 

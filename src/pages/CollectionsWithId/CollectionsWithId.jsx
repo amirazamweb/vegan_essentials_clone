@@ -4,11 +4,15 @@ import CardConatiner from './../../components/CardContainer/CardContainer';
 import chocolateCandyAndSweets from './../../data/chocolateCandyAndSweets/chocolate_candy_and_sweets.json';
 import petProducts from './../../data/petProducts/pet_products.json';
 import cheeseEggsAndDairy from './../../data/cheeseEggsAndDairy/cheese_eggs_and_dairy.json';
-import pantryEssentials from './../../data/pantryEssentials/pantry_essentials.json'
+import pantryEssentials from './../../data/pantryEssentials/pantry_essentials.json';
+import snacks from './../../data/snacks/snacks.json';
+import bakedGoods from './../../data/bakedGoods/baked_goods.json';
+import meatAndSeaFood from './../../data/meatAndSeaFood/meat_and_sea_food.json';
 import { useParams } from 'react-router-dom';
 
 const CollectionsWithId = () => {
-    let dataArr = [chocolateCandyAndSweets, petProducts, cheeseEggsAndDairy, pantryEssentials];
+
+    let dataArr = [chocolateCandyAndSweets, petProducts, cheeseEggsAndDairy, pantryEssentials, snacks, bakedGoods, meatAndSeaFood];
     let referDatatoMap = {};
     let params = useParams();
     switch (params.id) {
@@ -23,6 +27,15 @@ const CollectionsWithId = () => {
             break;
         case 'pantry-essentials':
             referDatatoMap = dataArr[3];
+            break;
+        case 'snacks':
+            referDatatoMap = dataArr[4];
+            break;
+        case 'baked-goods':
+            referDatatoMap = dataArr[5];
+            break;
+        case 'meat-seafood':
+            referDatatoMap = dataArr[6];
             break;
     }
 

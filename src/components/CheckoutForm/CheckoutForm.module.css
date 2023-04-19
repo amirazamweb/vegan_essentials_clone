@@ -1,0 +1,82 @@
+.child1 {
+    width: 50%;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+}
+
+.child1 input,
+select {
+    padding: 0.6rem 1rem;
+    border-radius: 0.3rem;
+    border: 1px solid #353535;
+    margin: 0.5rem 0;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.child1 input:focus {
+    outline: none;
+    border: 1px solid #369e45;
+}
+
+.child1 select:focus {
+    outline: none;
+    border: 1px solid #369e45;
+}
+
+.child1 h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0.7rem 0;
+}
+
+.child1>div {
+    width: 88%;
+}
+
+.child1>div img {
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+.child1 form>div {
+    width: 87%;
+}
+
+.child1 .first_multiple_contain_elm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.child1 .first_multiple_contain_elm div {
+    width: 48%;
+}
+
+.child1 .second_multiple_contain_elm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.child1 .second_multiple_contain_elm div {
+    width: 32%;
+}
+
+.child1 button {
+    width: 33%;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    border-style: none;
+    background-color: #369e45;
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 1rem;
+    float: right;
+}
+
+.child1 button:hover {
+    cursor: pointer;
+    background-color: #489c55;
+}

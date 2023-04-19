@@ -8,6 +8,7 @@ let initialVal = {
     show_order_popup: false,
     show_shopping_bag: false,
     show_item_already_added_notify: false,
+    show_checkout_popup: false,
     detect_count: 0
 }
 

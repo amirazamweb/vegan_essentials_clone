@@ -62,21 +62,21 @@ const ImageCarosal = () => {
                         <p>Pantry Essentials</p>
                     </div>
                 </Link>
-                <Link to="#">
+                <Link to="/collections/snacks">
                     <div className={style.item} onClick={scrollToTop}>
                         <div><img src="https://cdn.shopify.com/s/files/1/0612/9260/9676/files/snacks.webp" alt="image" /></div>
                         <p>Snacks</p>
                     </div>
                 </Link>
 
-                <Link to="#">
+                <Link to="/collections/baked-goods">
                     <div className={style.item} onClick={scrollToTop}>
                         <div><img src="https://cdn.shopify.com/s/files/1/0612/9260/9676/files/baked-goods.webp" alt="image" /></div>
                         <p>Baked Goods</p>
                     </div>
                 </Link>
 
-                <Link to="#">
+                <Link to="/collections/meat-seafood">
                     <div className={style.item} onClick={scrollToTop}>
                         <div><img src="https://cdn.shopify.com/s/files/1/0612/9260/9676/files/meat-and-seafood.webp" alt="image" /></div>
                         <p>Meat & Seafood</p>

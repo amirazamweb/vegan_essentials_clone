@@ -11,7 +11,7 @@ const CardContainer = ({ data, cardDisplayCount }) => {
 
     const displayAllProduct = () => {
         dispatch(displayAllCard(data));
-        navigate(`/collection/${data.title}`);
+        navigate(`/collection/${data.title.toLowerCase().replaceAll(" ", "-").replaceAll('&', 'and').replaceAll(',', '')}`);
         window.scrollTo(0, 0);
     }
 
