@@ -1,0 +1,41 @@
+.main {
+    width: 35%;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgb(190, 190, 190);
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.main h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.main form {
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.main form input {
+    margin: 0.4rem 0;
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid gray;
+}
+
+.main form input:focus {
+    outline: none;
+    border: 1px solid #369e45;
+}
+
+.main input[type='submit'] {
+    background-color: #369e45;
+    color: #fff;
+    border: 1px solid #369e45;
+    cursor: pointer;
+    margin-top: 1.2rem;
+    font-size: 1rem;
+}

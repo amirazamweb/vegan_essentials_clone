@@ -4,7 +4,11 @@ import Home from "./pages/Home/Home";
 import Collections from "./pages/Collections/Collections";
 import CollectionsWithId from "./pages/CollectionsWithId/CollectionsWithId";
 import DisplayAllProduct from "./pages/DisplayAllProduct/DisplayAllProduct";
+import AboutUs from "./pages/AboutUs/AboutUs";
+import ContactUs from "./pages/ContactUs/ContactUs";
+import Rewards from "./pages/Rewards/Rewards";
 import Cart from "./pages/Cart/Cart";
+import User from "./pages/auth/User";
 import Checkout from "./pages/Checkout/Checkout";
 import Footer from "./components/Footer/Footer";
 import BG from "./components/BG/BG";
@@ -41,7 +45,11 @@ const AppContainer = () => {
                 <Route path="/collections" element={<Collections />} />
                 <Route path="/collections/:id" element={<CollectionsWithId />} />
                 <Route path="/collection/:id" element={<DisplayAllProduct />} />
+                <Route path="/about-us" element={<AboutUs />} />
+                <Route path="/contact-us" element={<ContactUs />} />
+                <Route path="/rewards" element={<Rewards />} />
                 <Route path="/cart" element={<Cart />} />
+                <Route path="/user/:id" element={<User />} />
                 <Route path="/checkout" element={<Checkout />} />
             </Routes>
             <Footer />

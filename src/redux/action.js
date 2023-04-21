@@ -74,3 +74,16 @@ export const closeCheckoutPopup = () => {
         type: 'close_checkout_popup',
     }
 }
+
+export const userDetails = (data) => {
+    return {
+        type: 'save-user',
+        payload: data
+    }
+}
+
+export const removeUser = () => {
+    return {
+        type: 'remove-user'
+    }
+}

@@ -49,5 +49,13 @@ export let reducer = (val, action) => {
         return { ...val, show_checkout_popup: false, show_bg: false }
     }
 
+    if (action.type === 'save-user') {
+        return { ...val, userDetails: action.payload }
+    }
+
+    if (action.type === 'remove-user') {
+        return { ...val, userDetails: {} }
+    }
+
     return val;
 } 

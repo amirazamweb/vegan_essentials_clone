@@ -7,7 +7,7 @@ const CheckoutItem = ({ img, title, price, itemCount }) => {
                 <span>{itemCount}</span>
             </div>
             <div>{title}</div>
-            <div>${itemCount * price}</div>
+            <div>${(itemCount * price).toFixed(2)}</div>
         </div>
     )
 }

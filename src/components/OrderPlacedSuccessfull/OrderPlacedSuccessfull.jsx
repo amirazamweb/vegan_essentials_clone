@@ -8,10 +8,6 @@ const OrderPlacedSuccessfull = () => {
 
     let orderplacedCount = localStorage.getItem('count_daffa_715f_v1@3') || 0;
 
-    useEffect(() => {
-        localStorage.setItem('count_daffa_715f_v1@3', ++orderplacedCount);
-    }, [])
-
     let navigate = useNavigate();
     let dispatch = useDispatch();
 
@@ -26,7 +22,7 @@ const OrderPlacedSuccessfull = () => {
         <div className={style.order_placed_successful}>
             <div><i class="fa-regular fa-circle-check"></i></div>
             <div>Your order is placed successfully!</div>
-            <div>Order Id: {orderplacedCount}</div>
+            <div>Order Id: VE{orderplacedCount}</div>
             <div className={style.close_popup} onClick={navigateToHome}><i class="fa-solid fa-xmark"></i></div>
         </div>
     )

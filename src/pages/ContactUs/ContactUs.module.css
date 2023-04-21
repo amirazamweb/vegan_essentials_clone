@@ -1,0 +1,64 @@
+.poster img {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.details {
+    padding: 0 4rem;
+    display: flex;
+    justify-content: space-between;
+    color: #222f3e;
+}
+
+.details a {
+    color: #369e45;
+}
+
+.details h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.details>div:first-of-type {
+    width: 45%;
+}
+
+.details>div:first-of-type p {
+    text-align: left;
+}
+
+.details>div:last-of-type {
+    width: 45%;
+}
+
+.details>div:last-of-type p {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.details>div:last-of-type input,
+textarea {
+    width: 75%;
+    margin: 0.3rem 0 0.6rem 0;
+    padding: 0.5rem;
+    border: 1px solid #222f3e;
+    resize: none;
+}
+
+.details>div:last-of-type input:focus {
+    outline: none;
+    border: 1px solid #369e45;
+}
+
+.details>div:last-of-type textarea:focus {
+    outline: none;
+    border: 1px solid #369e45;
+}
+
+.details>div:last-of-type input[type='submit'] {
+    background-color: #369e45;
+    border: 1px solid #369e45;
+    color: #fff;
+    cursor: pointer;
+}

@@ -6,7 +6,25 @@ import OrderPlacedSuccessfull from '../OrderPlacedSuccessfull/OrderPlacedSuccess
 import { orderPlaced } from '../../redux/action';
 import { useDispatch, useSelector } from 'react-redux';
 
+const setOrderPlacedDetails = (item) => {
+    localStorage.setItem('count_daffa_715f_v1@3', Number(item.orderId.slice(2)));
+    let items = JSON.parse(localStorage.getItem('hs$1_gga78!')) || [];
+    items.push(item);
+    localStorage.setItem('hs$1_gga78!', JSON.stringify(items));
+}
+
 const CheckoutForm = () => {
+
+    let itemListInStorage = JSON.parse(localStorage.getItem('__vegan_order')) || [];
+    let orderId = localStorage.getItem('count_daffa_715f_v1@3') || 0;
+    let totalAmount = 0;
+    let itemCount = itemListInStorage.length;
+
+    itemListInStorage.forEach((e) => {
+        totalAmount += (e.price);
+    })
+
+    totalAmount = totalAmount.toFixed(2);
 
     let emailRef = useRef();
     let countryRef = useRef();
@@ -52,6 +70,8 @@ const CheckoutForm = () => {
 
         schema.validate(customerDetails)
             .then((res) => {
+                let order = { itemCount, totalAmount, orderId: `VE${++orderId}` };
+                setOrderPlacedDetails(order);
                 setShow(false);
                 dispatch(orderPlaced());
             })

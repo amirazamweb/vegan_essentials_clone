@@ -1,0 +1,66 @@
+.notlogin {
+    height: 50vh;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.notlogin span {
+    color: blue;
+    cursor: pointer;
+}
+
+.login {
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login>div:nth-of-type(1) {
+    width: 70%;
+}
+
+.login>div:nth-of-type(1) table {
+    width: 100%;
+}
+
+.login>div:nth-of-type(1) table,
+th,
+td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.login>div:nth-of-type(1) table th,
+td {
+    padding: 0.5rem;
+}
+
+.login>div:nth-of-type(2) {
+    width: 15%;
+}
+
+.login>div:nth-of-type(2) img {
+    width: 100%;
+}
+
+.login>div:nth-of-type(2) h3 {
+    color: #369e45;
+    margin: 0.5rem 0;
+}
+
+.login>div:nth-of-type(2) h4 {
+    color: #ea9a44;
+    margin-bottom: 0.7rem;
+}
+
+.login>div:nth-of-type(2) button {
+    width: 50%;
+    padding: 0.3rem;
+    background-color: #369e45;
+    color: #fff;
+    /* font-size: 1.1rem; */
+    border-style: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}

@@ -9,7 +9,8 @@ let initialVal = {
     show_shopping_bag: false,
     show_item_already_added_notify: false,
     show_checkout_popup: false,
-    detect_count: 0
+    detect_count: 0,
+    userDetails: {}
 }
 
 export let store = createStore(reducer, initialVal);

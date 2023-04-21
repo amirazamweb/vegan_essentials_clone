@@ -3,11 +3,16 @@ import logo from './../../images/logo.png';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+
+    const scrollTop = () => {
+        window.scrollTo(0, 0);
+    }
+
     return (
         <div className={style.main}>
             <div className={style.footerLinks}>
                 <div className={style.child1}>
-                    <div><Link to="/"><img src={logo} alt="logo" /></Link></div>
+                    <div onClick={scrollTop}><Link to="/"><img src={logo} alt="logo" /></Link></div>
                     <div>
                         VeganEssentials is a one-stop shopping destination for all vegan products. Shop now to get the highest quality animal-free & cruelty-free products.
                         <br /><br />
@@ -53,7 +58,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={style.copyright}>
-                <div>© 2023 Copyright <Link to="/">Vegan Essentials</Link> Online Store</div>
+                <div>© 2023 Copyright <Link to="/" onClick={scrollTop}>Vegan Essentials</Link> Online Store</div>
                 <div>
                     <img src="https://cdn.shopify.com/s/files/1/0612/9260/9676/t/8/assets/payment-methods.jpg" alt="credit-cards" />
                 </div>
